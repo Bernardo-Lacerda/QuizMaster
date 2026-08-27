@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizMaster</string>
+    <string name="identificacao_dupla">Dupla: Bernardo Lacerda e Ana Gabriela</string>
+    <string name="hint_nome_jogador">Nome do jogador</string>
+    <string name="botao_entrar">ENTRAR</string>
+    <string name="botao_sair">SAIR</string>
+    <string name="mensagem_nome_vazio">Digite seu nome para continuar</string>
+</resources>
