@@ -5,4 +5,17 @@
     <string name="botao_entrar">ENTRAR</string>
     <string name="botao_sair">SAIR</string>
     <string name="mensagem_nome_vazio">Digite seu nome para continuar</string>
+
+    <string name="titulo_configuracao">CONFIGURAR PARTIDA</string>
+    <string name="label_materias">MATÉRIAS</string>
+    <string name="materia_portugues">Português</string>
+    <string name="materia_matematica">Matemática</string>
+    <string name="label_quantidade">QUANTIDADE DE QUESTÕES</string>
+    <string name="label_tempo">TEMPO POR QUESTÃO</string>
+    <string name="simbolo_menos">-</string>
+    <string name="simbolo_mais">+</string>
+    <string name="formato_segundos">%d segundos</string>
+    <string name="botao_jogar">JOGAR</string>
+    <string name="mensagem_selecionar_materia">Selecione pelo menos uma matéria</string>
+    <string name="mensagem_quantidade_invalida">A quantidade de questões deve ser maior que zero</string>
 </resources>
