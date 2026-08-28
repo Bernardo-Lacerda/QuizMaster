@@ -18,4 +18,11 @@
     <string name="botao_jogar">JOGAR</string>
     <string name="mensagem_selecionar_materia">Selecione pelo menos uma matéria</string>
     <string name="mensagem_quantidade_invalida">A quantidade de questões deve ser maior que zero</string>
+
+    <string name="formato_tempo">TEMPO: %1$02d:%2$02d</string>
+    <string name="formato_numero_questao">QUESTÃO %1$d DE %2$d</string>
+    <string name="botao_confirmar">CONFIRMAR</string>
+    <string name="mensagem_selecionar_alternativa">Selecione uma alternativa</string>
+    <string name="feedback_acertou">ACERTOU! A resposta correta é %1$s</string>
+    <string name="feedback_errou">ERROU! A resposta correta é %1$s</string>
 </resources>
