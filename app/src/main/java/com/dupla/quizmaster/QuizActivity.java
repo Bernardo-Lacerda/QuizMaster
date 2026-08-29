@@ -24,6 +24,7 @@ public class QuizActivity extends AppCompatActivity {
     private RadioButton radioAltB;
     private RadioButton radioAltC;
     private RadioButton radioAltD;
+    private RadioButton radioAltE;
     private Button botaoConfirmar;
     private TextView textFeedback;
 
@@ -42,6 +43,7 @@ public class QuizActivity extends AppCompatActivity {
         radioAltB = findViewById(R.id.radio_alt_b);
         radioAltC = findViewById(R.id.radio_alt_c);
         radioAltD = findViewById(R.id.radio_alt_d);
+        radioAltE = findViewById(R.id.radio_alt_e);
         botaoConfirmar = findViewById(R.id.btn_confirmar);
         textFeedback = findViewById(R.id.text_feedback);
 
@@ -68,6 +70,7 @@ public class QuizActivity extends AppCompatActivity {
         radioAltB.setText(alternativas[1]);
         radioAltC.setText(alternativas[2]);
         radioAltD.setText(alternativas[3]);
+        radioAltE.setText(alternativas[4]);
 
         radioGroupAlternativas.clearCheck();
         textFeedback.setVisibility(View.GONE);
@@ -120,8 +123,10 @@ public class QuizActivity extends AppCompatActivity {
             indiceEscolhido = 1;
         } else if (idSelecionado == R.id.radio_alt_c) {
             indiceEscolhido = 2;
-        } else {
+        } else if (idSelecionado == R.id.radio_alt_d) {
             indiceEscolhido = 3;
+        } else {
+            indiceEscolhido = 4;
         }
 
         processarResposta(indiceEscolhido);
@@ -163,6 +168,7 @@ public class QuizActivity extends AppCompatActivity {
         radioAltB.setEnabled(habilitado);
         radioAltC.setEnabled(habilitado);
         radioAltD.setEnabled(habilitado);
+        radioAltE.setEnabled(habilitado);
         botaoConfirmar.setEnabled(habilitado);
     }
 
