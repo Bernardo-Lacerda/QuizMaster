@@ -25,4 +25,13 @@
     <string name="mensagem_selecionar_alternativa">Selecione uma alternativa</string>
     <string name="feedback_acertou">ACERTOU! A resposta correta é %1$s</string>
     <string name="feedback_errou">ERROU! A resposta correta é %1$s</string>
+
+    <string name="titulo_resultado">RESULTADO</string>
+    <string name="formato_acertos">Acertos: %d</string>
+    <string name="formato_erros">Erros: %d</string>
+    <string name="label_desempenho">DESEMPENHO</string>
+    <string name="formato_desempenho_materia">%1$s: %2$d de %3$d questões (%4$d%%)</string>
+    <string name="botao_jogar_novamente">JOGAR NOVAMENTE</string>
+    <string name="botao_config">CONFIG.</string>
+    <string name="botao_inicio">INÍCIO</string>
 </resources>
