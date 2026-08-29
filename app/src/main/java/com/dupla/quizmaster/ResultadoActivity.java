@@ -48,6 +48,9 @@ public class ResultadoActivity extends AppCompatActivity {
             textResultadoMatematica.setVisibility(View.GONE);
         }
 
+        NotificationHelper.mostrarNotificacaoResultado(
+                this, gameManager.getAcertosGeral(), gameManager.getTotalQuestoes());
+
         botaoJogarNovamente.setOnClickListener(v -> {
             gameManager.iniciarNovaPartida();
             startActivity(new Intent(this, QuizActivity.class));

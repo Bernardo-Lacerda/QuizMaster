@@ -34,4 +34,9 @@
     <string name="botao_jogar_novamente">JOGAR NOVAMENTE</string>
     <string name="botao_config">CONFIG.</string>
     <string name="botao_inicio">INÍCIO</string>
+
+    <string name="nome_canal_notificacao">Resultado do Quiz</string>
+    <string name="descricao_canal_notificacao">Notificações sobre o resultado das partidas do QuizMaster</string>
+    <string name="titulo_notificacao_resultado">Partida finalizada!</string>
+    <string name="formato_notificacao_resultado">Você acertou %1$d de %2$d questões. Toque para jogar novamente.</string>
 </resources>
