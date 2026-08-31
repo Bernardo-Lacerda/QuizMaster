@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/color_background">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="32dp">
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_card"
+        android:elevation="6dp"
+        android:padding="24dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -15,6 +20,7 @@
             android:text="@string/titulo_configuracao"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:textColor="@color/color_primary"
             android:layout_marginBottom="24dp" />
 
         <TextView
@@ -22,12 +28,14 @@
             android:layout_height="wrap_content"
             android:text="@string/label_materias"
             android:textStyle="bold"
+            android:textColor="@color/color_on_surface"
             android:layout_marginBottom="8dp" />
 
         <CheckBox
             android:id="@+id/check_portugues"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/color_primary"
             android:text="@string/materia_portugues"
             android:checked="true" />
 
@@ -35,6 +43,7 @@
             android:id="@+id/check_matematica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/color_primary"
             android:text="@string/materia_matematica"
             android:checked="true"
             android:layout_marginBottom="24dp" />
@@ -44,6 +53,7 @@
             android:layout_height="wrap_content"
             android:text="@string/label_quantidade"
             android:textStyle="bold"
+            android:textColor="@color/color_on_surface"
             android:layout_marginBottom="8dp" />
 
         <LinearLayout
@@ -51,18 +61,21 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
-            android:layout_marginBottom="8dp">
+            android:layout_marginBottom="12dp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/color_on_surface"
                 android:text="@string/materia_portugues" />
 
             <Button
                 android:id="@+id/btn_menos_portugues"
+                style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:cornerRadius="12dp"
                 android:text="@string/simbolo_menos" />
 
             <TextView
@@ -70,12 +83,16 @@
                 android:layout_width="48dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/color_on_surface"
                 android:text="5" />
 
             <Button
                 android:id="@+id/btn_mais_portugues"
+                style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:cornerRadius="12dp"
                 android:text="@string/simbolo_mais" />
 
         </LinearLayout>
@@ -91,12 +108,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/color_on_surface"
                 android:text="@string/materia_matematica" />
 
             <Button
                 android:id="@+id/btn_menos_matematica"
+                style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:cornerRadius="12dp"
                 android:text="@string/simbolo_menos" />
 
             <TextView
@@ -104,12 +124,16 @@
                 android:layout_width="48dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/color_on_surface"
                 android:text="5" />
 
             <Button
                 android:id="@+id/btn_mais_matematica"
+                style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:cornerRadius="12dp"
                 android:text="@string/simbolo_mais" />
 
         </LinearLayout>
@@ -119,6 +143,7 @@
             android:layout_height="wrap_content"
             android:text="@string/label_tempo"
             android:textStyle="bold"
+            android:textColor="@color/color_on_surface"
             android:layout_marginBottom="8dp" />
 
         <LinearLayout
@@ -130,8 +155,10 @@
 
             <Button
                 android:id="@+id/btn_menos_tempo"
+                style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:cornerRadius="12dp"
                 android:text="@string/simbolo_menos" />
 
             <TextView
@@ -140,12 +167,16 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/color_on_surface"
                 android:text="30 segundos" />
 
             <Button
                 android:id="@+id/btn_mais_tempo"
+                style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:cornerRadius="12dp"
                 android:text="@string/simbolo_mais" />
 
         </LinearLayout>
